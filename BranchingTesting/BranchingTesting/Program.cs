@@ -10,7 +10,12 @@ namespace BranchingTesting
     {
         static void Main(string[] args)
         {
+            Future();
         }
 
+        public static void Future()
+        {
+            Console.WriteLine("Gemini");
+        }
     }
 }
