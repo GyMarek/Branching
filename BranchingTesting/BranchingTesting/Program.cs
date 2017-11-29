@@ -34,7 +34,7 @@ namespace BranchingTesting
 
         public static void Count(int month)
         {
-            Console.WriteLine(month);
+            Console.WriteLine($"Counting the countless {month}");
         }
     }
 }
