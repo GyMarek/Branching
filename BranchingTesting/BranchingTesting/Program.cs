@@ -12,8 +12,8 @@ namespace BranchingTesting
         {
             Cheer("Lovári", "Kriptonájt");
             Future("Ox");
-            Count(3);
-            Greet("Greetings!");
+            Count(3,3);
+            Greet("Hi", "Reka");
             Console.ReadLine();
         }
 
@@ -27,14 +27,15 @@ namespace BranchingTesting
             Console.WriteLine(chineseHoroscope);
         }
 
-        public static void Greet(string greet)
+        public static void Greet(string greet, string name)
         {
-            Console.WriteLine(greet);
+            Console.WriteLine($"{greet} {name}!");
         }
 
-        public static void Count(int month)
+        public static void Count(int month, int year)
         {
             Console.WriteLine(month);
+            Console.WriteLine(year);
         }
     }
 }
