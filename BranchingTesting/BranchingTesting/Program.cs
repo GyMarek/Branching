@@ -11,7 +11,7 @@ namespace BranchingTesting
         static void Main(string[] args)
         {
             Cheer();
-            Future();
+            Future("Gemini");
             Console.ReadLine();
         }
 
@@ -20,9 +20,9 @@ namespace BranchingTesting
             Console.WriteLine("Kriptonájt");
         }
 
-        public static void Future()
+        public static void Future(string horoscope)
         {
-            Console.WriteLine("Gemini");
+            Console.WriteLine(horoscope);
         }
 
         public static void Greet()
