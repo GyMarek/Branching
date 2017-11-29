@@ -13,7 +13,7 @@ namespace BranchingTesting
             Future("Gemini");
             Cheer("Kriptonájt");
             Count(33);
-            Greet("Reka");
+            Greet("Greetings!");
             Console.ReadLine();
         }
 
@@ -27,9 +27,9 @@ namespace BranchingTesting
             Console.WriteLine(horoscope);
         }
 
-        public static void Greet(string name)
+        public static void Greet(string greet)
         {
-            Console.WriteLine(name);
+            Console.WriteLine(greet);
         }
 
         public static void Count(int age)
