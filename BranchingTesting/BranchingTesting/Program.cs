@@ -12,5 +12,9 @@ namespace BranchingTesting
         {
         }
 
+        public static void Count()
+        {
+            Console.WriteLine("33");
+        }
     }
 }
