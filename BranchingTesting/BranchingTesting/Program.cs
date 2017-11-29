@@ -12,5 +12,9 @@ namespace BranchingTesting
         {
         }
 
+        public static void Greet()
+        {
+            Console.WriteLine("Reka");
+        }
     }
 }
