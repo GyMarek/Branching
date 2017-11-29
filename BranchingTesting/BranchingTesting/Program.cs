@@ -12,7 +12,7 @@ namespace BranchingTesting
         {
             Cheer("Lovári");
             Future("Ox");
-            Count(3);
+            Count(3,3);
             Greet("Greetings!");
             Console.ReadLine();
         }
@@ -32,9 +32,10 @@ namespace BranchingTesting
             Console.WriteLine(greet);
         }
 
-        public static void Count(int month)
+        public static void Count(int month, int year)
         {
             Console.WriteLine(month);
+            Console.WriteLine(year);
         }
     }
 }
