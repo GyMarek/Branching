@@ -19,7 +19,7 @@ namespace BranchingTesting
 
         public static void Cheer(string className)
         {
-            Console.WriteLine(className);
+            Console.WriteLine($"Cheer for the {className}");
         }
 
         public static void Future(string chineseHoroscope, string month)
