@@ -25,7 +25,7 @@ namespace BranchingTesting
 
         public static void Future(string chineseHoroscope, string month)
         {
-            Console.WriteLine(chineseHoroscope, month);
+            Console.WriteLine($"Your future looks like {chineseHoroscope}");
         }
 
         public static void Greet(string greet)
