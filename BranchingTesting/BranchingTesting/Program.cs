@@ -29,7 +29,7 @@ namespace BranchingTesting
 
         public static void Greet(string greet)
         {
-            Console.WriteLine(greet);
+            Console.WriteLine($"Greetings for the {greet}");
         }
 
         public static void Count(int month, int year)
