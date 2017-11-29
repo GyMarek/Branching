@@ -16,5 +16,10 @@ namespace BranchingTesting
         {
             Console.WriteLine("Reka");
         }
+
+        public static void Count()
+        {
+            Console.WriteLine("33");
+        }
     }
 }
