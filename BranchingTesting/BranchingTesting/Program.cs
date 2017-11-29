@@ -11,7 +11,7 @@ namespace BranchingTesting
         static void Main(string[] args)
         {
             Future("Gemini");
-            Cheer("Kriptonájt");
+            Cheer("Lovári");
             Count(33);
             Greet("Reka");
             Console.ReadLine();
