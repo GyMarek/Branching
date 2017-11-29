@@ -10,10 +10,10 @@ namespace BranchingTesting
     {
         static void Main(string[] args)
         {
-            Future("Gemini");
             Cheer("Lovári");
+            Future("Ox");
             Count(33);
-            Greet("Reka");
+            Greet("Greetings!");
             Console.ReadLine();
         }
 
@@ -22,14 +22,14 @@ namespace BranchingTesting
             Console.WriteLine(className);
         }
 
-        public static void Future(string horoscope)
+        public static void Future(string chineseHoroscope)
         {
-            Console.WriteLine(horoscope);
+            Console.WriteLine(chineseHoroscope);
         }
 
-        public static void Greet(string name)
+        public static void Greet(string greet)
         {
-            Console.WriteLine(name);
+            Console.WriteLine(greet);
         }
 
         public static void Count(int age)
