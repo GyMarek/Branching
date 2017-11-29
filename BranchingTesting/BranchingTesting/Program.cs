@@ -10,6 +10,7 @@ namespace BranchingTesting
     {
         static void Main(string[] args)
         {
+            Count(33);
             Cheer();
             Future();
             Console.ReadLine();
@@ -30,9 +31,9 @@ namespace BranchingTesting
             Console.WriteLine("Reka");
         }
 
-        public static void Count()
+        public static void Count(int age)
         {
-            Console.WriteLine("33");
+            Console.WriteLine(age);
         }
     }
 }
