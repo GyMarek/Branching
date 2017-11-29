@@ -10,6 +10,13 @@ namespace BranchingTesting
     {
         static void Main(string[] args)
         {
+            Cheer();
+            Console.ReadLine();
+        }
+
+        public static void Cheer()
+        {
+            Console.WriteLine("Kriptonájt");
         }
 
     }
