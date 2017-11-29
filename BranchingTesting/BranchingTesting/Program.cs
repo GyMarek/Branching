@@ -17,5 +17,15 @@ namespace BranchingTesting
         {
             Console.WriteLine("Gemini");
         }
+
+        public static void Greet()
+        {
+            Console.WriteLine("Reka");
+        }
+
+        public static void Count()
+        {
+            Console.WriteLine("33");
+        }
     }
 }
