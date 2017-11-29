@@ -10,10 +10,11 @@ namespace BranchingTesting
     {
         static void Main(string[] args)
         {
+            Future("Ox", "June");
             Cheer("Lovári", "Kriptonájt");
-            Future("Ox");
-            Count(3);
-            Greet("Greetings!");
+            Future("Ox", "June");
+            Count(3,3);
+            Greet("Hi", "Reka");
             Console.ReadLine();
         }
 
@@ -22,19 +23,20 @@ namespace BranchingTesting
             Console.WriteLine($"Your class is {classNameTrue} or {className}?");
         }
 
-        public static void Future(string chineseHoroscope)
+        public static void Future(string chineseHoroscope, string month)
         {
-            Console.WriteLine(chineseHoroscope);
+            Console.WriteLine(chineseHoroscope, month);
         }
 
-        public static void Greet(string greet)
+        public static void Greet(string greet, string name)
         {
-            Console.WriteLine(greet);
+            Console.WriteLine($"{greet} {name}!");
         }
 
-        public static void Count(int month)
+        public static void Count(int month, int year)
         {
-            Console.WriteLine($"Counting the countless {month}");
+            Console.WriteLine(month);
+            Console.WriteLine(year);
         }
     }
 }
