@@ -10,16 +10,16 @@ namespace BranchingTesting
     {
         static void Main(string[] args)
         {
-            Cheer("Lovári");
+            Cheer("Lovári", "Kriptonájt");
             Future("Ox");
             Count(3);
             Greet("Greetings!");
             Console.ReadLine();
         }
 
-        public static void Cheer(string className)
+        public static void Cheer(string className, string classNameTrue)
         {
-            Console.WriteLine(className);
+            Console.WriteLine($"Your class is {classNameTrue} or {className}?");
         }
 
         public static void Future(string chineseHoroscope)
